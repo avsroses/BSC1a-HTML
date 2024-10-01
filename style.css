@@ -4,6 +4,18 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
 body {
     background-color: cornflowerblue;
+    color: white;
+}
+
+
+.green-bg {
+    background-color: #31703f;
+}
+
+
+#first-div {
+    background-color: #82bab2;
 }
