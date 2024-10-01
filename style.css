@@ -36,6 +36,8 @@ nav ul li {
     /* space between border and other elements */
     margin: 5px;
     background-color: #82bab2;
+    /* show pointer upon hovering over element */
+    cursor: pointer;
 }
 
 /* remove default a element CSS */
