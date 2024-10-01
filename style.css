@@ -11,12 +11,61 @@ body {
     color: white;
 }
 
-/* green-bg class set background to green */
-.green-bg {
-    background-color: #31703f;
+/* Center images on webpage */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;    
+    padding: 10px;
 }
 
-/* First div specific backgound */
+/* center text on webpage */
+.center-text {
+    text-align: center;
+}
+
+/* Animate image */
+#animate{
+    /* Duration of animation */
+    animation-duration: 3s;
+    animation-name: slidein;
+    /* Animation will repeat forever */
+    animation-iteration-count: infinite;
+    /* Causes direction of animation to change */
+    animation-direction: alternate;
+}
+    /* Keyframe for animation */
+    /* Causes image to slide from side to side */
+    @keyframes slidein {
+        from {
+        translate: 100vw 0;
+        scale: 200% 1;
+        }
+  
+        to {
+        translate: 0 0;
+        scale: 100% 1;
+        }
+    }
+
+/* Title styling */
+#title {
+    color: #781212;
+    font-size: 50px;
+}
+
+/* First div specific bg */
 #first-div {
     background-color: #82bab2;
+}
+
+/* Second div specific bg */
+#second-div {
+    background-color: #b878dd;
+}
+
+/* Third div specific bg */
+#third-div {
+    background-color: rgb(245, 203, 112);
 }
