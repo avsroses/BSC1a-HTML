@@ -30,7 +30,7 @@ nav ul {
     list-style-type: none;
     /* display flex so elements appear in a row */
     display: flex;
-    background-color: #e6bce6;
+    background-color: rgb(235, 196, 225);
 }
 
 /* List items within any navigation bar styles */
@@ -109,12 +109,12 @@ a {
 
 /* Second div specific bg */
 #second-div {
-    background-color: #b878dd;
+    background-color: #413c85;
 }
 
 /* Third div specific bg */
 #third-div {
-    background-color: rgb(245, 203, 112);
+    background-color: rgb(62, 151, 202);
 }
 
 /* Ending styling */
