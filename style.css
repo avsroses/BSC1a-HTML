@@ -45,7 +45,7 @@ img {
     /* Causes image to slide in */
 @keyframes slidein {
     from {
-    translate: 100vw 0;
+    translate: 150vw 0;
     scale: 200% 1;
     }
   
