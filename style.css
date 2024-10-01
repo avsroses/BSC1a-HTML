@@ -7,14 +7,16 @@
 
 /* body CSS - shared bg color */
 body {
-    background-color: cornflowerblue;
+    background-color: rgb(156, 178, 219);
     color: white;
 }
 
+/* Image size */
 img {
     width: 400px;
     height: 400px;
 }
+
 /* Center images on webpage */
 .center {
     display: block;
@@ -40,23 +42,24 @@ img {
     animation-direction: alternate;
 }
     /* Keyframe for animation */
-    /* Causes image to slide from side to side */
-    @keyframes slidein {
-        from {
-        translate: 100vw 0;
-        scale: 200% 1;
-        }
-  
-        to {
-        translate: 0 0;
-        scale: 100% 1;
-        }
+    /* Causes image to slide in */
+@keyframes slidein {
+    from {
+    translate: 100vw 0;
+    scale: 200% 1;
     }
+  
+    to {
+    translate: 0 0;
+    scale: 100% 1;
+    }
+}
 
 /* Title styling */
 #title {
-    color: #781212;
+    color: #f0b3db;
     font-size: 50px;
+    text-shadow: 2px 2px 5px rgb(223, 121, 180);
 }
 
 /* First div specific bg */
@@ -72,4 +75,9 @@ img {
 /* Third div specific bg */
 #third-div {
     background-color: rgb(245, 203, 112);
+}
+
+/* Ending styling */
+#end {
+    text-shadow: 2px 2px 4px #000000;
 }
