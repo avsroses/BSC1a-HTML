@@ -1,21 +1,22 @@
+/* Set margin, padding and font for whole page */
 * {
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
+/* body CSS - shared bg color */
 body {
     background-color: cornflowerblue;
     color: white;
 }
 
-
+/* green-bg class set background to green */
 .green-bg {
     background-color: #31703f;
 }
 
-
+/* First div specific backgound */
 #first-div {
     background-color: #82bab2;
 }
