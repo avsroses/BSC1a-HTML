@@ -11,6 +11,10 @@ body {
     color: white;
 }
 
+img {
+    width: 400px;
+    height: 400px;
+}
 /* Center images on webpage */
 .center {
     display: block;
