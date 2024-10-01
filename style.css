@@ -17,6 +17,27 @@ img {
     height: 400px;
 }
 
+/* navigation bar styles */
+/* nav ul slects any ul that is inside a nav */
+nav ul {
+    /* Remove bullet points */
+    list-style-type: none;
+    /* display flex so elements appear in a row */
+    display: flex;
+    background-color: #a4c5db;
+}
+
+/* List items within any navigation bar styles */
+nav ul li {
+    /* space between element and border */
+    padding: 5px;
+    border-style: solid;
+    border-width: 2px;
+    /* space between border and other elements */
+    margin: 5px;
+    background-color: #82bab2;
+}
+
 /* Center images on webpage */
 .center {
     display: block;
