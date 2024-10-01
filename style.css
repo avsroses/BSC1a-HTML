@@ -24,7 +24,7 @@ nav ul {
     list-style-type: none;
     /* display flex so elements appear in a row */
     display: flex;
-    background-color: #a4c5db;
+    background-color: #e6bce6;
 }
 
 /* List items within any navigation bar styles */
@@ -35,7 +35,7 @@ nav ul li {
     border-width: 2px;
     /* space between border and other elements */
     margin: 5px;
-    background-color: #82bab2;
+    background-color: #a0b8e4;
     /* show pointer upon hovering over element */
     cursor: pointer;
 }
