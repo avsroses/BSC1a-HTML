@@ -38,6 +38,11 @@ nav ul li {
     background-color: #82bab2;
 }
 
+/* remove default a element CSS */
+a {
+    all: unset;
+}
+
 /* Center images on webpage */
 .center {
     display: block;
