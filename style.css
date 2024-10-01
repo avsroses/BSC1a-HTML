@@ -56,7 +56,7 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;    
+    width: 50%;
     padding: 10px;
 }
 
@@ -71,7 +71,7 @@ a {
 }
 
 /* Animate image */
-#animate{
+#animate {
     /* Duration of animation */
     animation-duration: 3s;
     animation-name: slidein;
@@ -80,17 +80,18 @@ a {
     /* Causes direction of animation to change */
     animation-direction: alternate;
 }
-    /* Keyframe for animation */
-    /* Causes image to slide in */
+
+/* Keyframe for animation */
+/* Causes image to slide in */
 @keyframes slidein {
     from {
-    translate: 150vw 0;
-    scale: 200% 1;
+        translate: 150vw 0;
+        scale: 200% 1;
     }
-  
+
     to {
-    translate: 0 0;
-    scale: 100% 1;
+        translate: 0 0;
+        scale: 100% 1;
     }
 }
 
